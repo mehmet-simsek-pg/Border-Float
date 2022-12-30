@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  width: 600px;
+}
+
+header {
+  background-color: red;
+  height: 3rem;
+}
+
+nav {
+  background-color: blue;
+}
+
+aside {
+  color: black;
+  background-color: yellow;
+  border: 5px solid red;
+  border-radius: 15px;
+  height: 20rem;
+  width: 20%;
+  float: left;
+}
+
+main {
+  float: right;
+
+  height: 20rem;
+  width: 80%;
+  background-image: url("monalisa.jpeg");
+  background-size: cover;
+  background-position: top;
+}
+
+footer {
+  clear: right;
+
+  background-color: gray;
+  height: 3rem;
+}
